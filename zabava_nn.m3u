@@ -43,8 +43,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/bw2000000/variant.m3u8?version=
 http://rt-vlg-nn-htlive-lb.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8?version=2
 #EXTINF:-1,Волга
 http://rt-vlg-nn-htlive-lb.cdn.ngenix.net/hls/CH_R03_VOLGA/variant.m3u8?version=2
-#EXTINF:-1,Первый городской (Нижний Новгород)
-http://rt-vlg-nn-htlive-lb.cdn.ngenix.net/hls/CH_R01_PERVYGORODSKOY/variant.m3u8?version=2
 #EXTINF:-1,Дзержинск ТВ
 http://rt-vlg-nn-htlive-lb.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8?version=2
 #EXTINF:-1,Че
