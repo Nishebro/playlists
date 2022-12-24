@@ -1,17 +1,755 @@
-#EXTM3U deinterlace=1 m3uautoload=1 url-tvg="http://iptvx.one/epg/epg_lite.xml.gz" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}"
-#EXTINF:-1,ТНТ 4
-http://a787200764-rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/playlist.m3u8?&version=2
-#EXTINF:-1,ТНТ 4 2
+#EXTM3U
+#EXTINF:-1,+1 Самара\CH_1TV
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_5TV
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_CHE
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_DOMASHNIY
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_FRIDAY
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_GUBERNIA
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_GUBERNIA/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_KARUSEL
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_KTVLUCH
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_KTVLUCH/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_M1HD
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_MATCHTV
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIA2/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_NTV
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_NTV/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_OTR
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_RENTV
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_ROSSIA1
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_ROSSIA24
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_ROSSIAK
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_SAMARA24
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_SAMARAGISHD
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_SAMARAGIS/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_STS
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_TNT
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_TNVPLANETA
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R05_TNV/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_TOLYTTI24HD
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_TV3
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_TVC
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R04_TVC/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_U
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_U/variant.m3u8?version=2
+#EXTINF:-1,+1 Самара\CH_ZVEZDA
+http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_1TV_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_4CHANNEL
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_4KANAL/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_5TV_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_5TV_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_BST
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_CHE_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_PERETZ_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_DOMASHNIY_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOMASHNY_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_FRIDAY_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_FRIDAY_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_INKOMTV_TALICA
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_INKOMTV/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_IRBITVEST
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_KANALC_SEROV
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_KANALC/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_KARUSEL_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_KARUSEL_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_MATCHTV_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_MATCHTV_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_MIGTV
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIGOR_URAL_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_MIR
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_MIR_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_MUZTV
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_MUZTV_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_NTV_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NTV_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_OTR_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_OTVHD
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_RENTV_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_RIMHD
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_ROSSIA1_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ROSSIA1_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_ROSSIA24_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_ROSSIAK_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_ROSSIAK_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_SPAS
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_SPAS_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_STS_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STS_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_TELEKON24HD
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TELEKON24_URAL_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_TNT4
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_TNT_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNT_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_TV3_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TV3_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_TVC_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TVC_EKT/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_VEKTORHD720_TRNSK
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VEKTOR/variant.m3u8?version=2
+#EXTINF:-1,+2 Екатеринбург\CH_ZVEZDA_2
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ZVEZDA_EKT/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_12CHANNELHD
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_12CHANNEL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_1GORODSKOY
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_1GORODSKOY/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_2X2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_2X2/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_5TV
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_5TV_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_CHE
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_DOMASHNIY
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_FRIDAY
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_KARUSEL
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_MATCHTV
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_MATCH_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_MIR_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_MIR_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_MUZTV_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_MUZTV_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_NTV
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_NTV_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_OMSKTVHD
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OMSKTV/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_OTR
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTR_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_PRODVIZHENIEHD
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_RENTV
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_RENTV_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_ROSSIA1
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_ROSSIA24
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_ROSSIAK
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_SPAS_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_SPAS_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_STS
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_STS_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_TNT
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_TNT4_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_2/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_TNT4_4
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_TNT4_4/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_TV3
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_TV3_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_TVC
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_TVC_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омск\CH_ZVEZDA
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA_OMSK/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_1TV
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_1TV_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_2X2_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_2X2/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_5TV_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_5TV_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_DISNEY
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_DISNEYCHANNEL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_DOMASHNIY_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_DOMASHNIY_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_KARUSEL_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_MATCHTV_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA2_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_MIR
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_MIR_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_MUZTV
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_MUZTV_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_NTV_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_NTV_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_RENTV_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_RENTV_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_ROSSIA1_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_ROSSIA24_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_ROSSIAK_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_SPAS
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_SPAS_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_STS_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_STS_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_TNT4_2_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_2/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_TNT4_4_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_TNT4_4/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_TNT_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_TV3_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_TV3_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_TVC_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_TVC_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+3 Омская область\CH_ZVEZDA_2
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ZVEZDA_OMSKOBL/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_1TV_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_1TV_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_2X2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_2X2/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_5F7CHANNELHD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_RENTV/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_5TV
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_5TV_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_8CHANNEL
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_8CHANNEL/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_AFONTOVOHD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_AFONTOVO/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_CHE
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_DOMASHNIY
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_ENISEYHD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_ENISEY/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_FRIDAY
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_KARUSEL
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_KARUSEL/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_MATCHTV
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_MATCH_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_MIR_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_MIR_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_MUZTV_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_MUZTV/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_NTV
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_NTV_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_OTR
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_PRIMAHD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_STS/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_RENTV
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_RENTV_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_ROSSIA1
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_ROSSIA24
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_ROSSIAK
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_STS
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_STS/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_TNT
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/variant.m3u8?version=2
-#EXTINF:-1,ТНТ 4-1
-http://a787200764-rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/playlist.m3u8?&version=2&offset=-3600
-#EXTINF:-1,ТНТ 4-1 2
-http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/variant.m3u8?version=2&offset=-3600
-#EXTINF:-1,Первый 8
-http://a775798502-s20441.cdn.ngenix.net/hls/CH_R49_1TV/playlist.m3u8?version=2
-#EXTINF:-1,Первый 8 2
+#EXTINF:-1,+4 Красноярск\CH_TNT4_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_2/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_TNT4_4
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_TNT4_4/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_TV3
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TV3_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_TVC
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_TVC_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_TVK24HD
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TVK24/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярск\CH_ZVEZDA
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA_KRASN/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_1TV
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_2X2_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_2X2/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_5TV_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_5TV_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_DISNEY
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_DISNEYCHANNEL/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_DOMASHNIY_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_FRIDAY_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_KARUSEL_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_MATCHTV_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA2_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_MIR
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_MIR_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_MUZTV
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_MUZTV_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_NTV_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_NTV_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_OTR_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_RENTV_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_RENTV_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_ROSSIA1_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_ROSSIA24_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_ROSSIAK_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_SPAS
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_SPAS_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_STS_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_STS_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_TNT4_2_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_2/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_TNT4_4_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_TNT4_4/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_TNT_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_TV3_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TV3_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_TVC_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R04_TVC_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_U
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_U/variant.m3u8?version=2
+#EXTINF:-1,+4 Красноярский край\CH_ZVEZDA_2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA_KRASN_KRAI/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_11_USOLYE
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_USOLYE/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_1TV_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_1TV/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_5TV
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_5TV_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_AISTHD
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_AIST/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_AKTISHD720
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_AKTIS/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_BST24HD_BR
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_CHE
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_DISNEY_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_DISNEYCHANNEL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_DOMASHNIY
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_FRIDAY
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_KARUSEL
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_MATCHTV
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_MATCH_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_MIR_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_MIR/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_MUZTV_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_MUZTV/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_NTSHD
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_RENTVIRK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_NTV
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_NTV_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_OTR
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_OTR/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_RENTV
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_RENTV_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_ROSSIA1
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_ROSSIA24
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_ROSSIAK
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_SPAS_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_SPAS/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_STS
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_STS_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_TNT
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_TNT4_4
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_TNT4_4/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_TV3
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TV3_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_TVC
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_TVC_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_U_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_U/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутск\CH_ZVEZDA
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA_IRKUTSK/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_1TV
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_1TV_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_5TV_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_5KANAL_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_FRIDAY_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_KARUSEL_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_MATCHTV_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_MATCHTV_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_MIR
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_MIR_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_MUZTV
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_MUZTV_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_NTV_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_NTV_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_OTR_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_OTR_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_RENTV_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_RENTV_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_RUSSIA1
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_RUSSIA1_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_RUSSIA24
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_RUSSIA24_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_RUSSIAK
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_RUSSIAK_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_SPAS
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R02_SPAS_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_STS_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_STS_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_TNT_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_TVC_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TVC_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+5 Иркутская область\CH_ZVEZDA_2
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_ZVEZDA_IRKOBL/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_1TV_2
+http://s84942.cdn.ngenix.net/hls/CH_R28_1TV/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_AOTV
+http://s84942.cdn.ngenix.net/hls/CH_R28_AOT/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_FRIDAY
+http://s84942.cdn.ngenix.net/hls/CH_R28_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_GOROD24
+http://s84942.cdn.ngenix.net/hls/CH_R28_GOROD24/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_MATCHTV
+http://s84942.cdn.ngenix.net/hls/CH_R28_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_OTR
+http://s84942.cdn.ngenix.net/hls/CH_R28_OTR/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_ROSSIA1
+http://s84942.cdn.ngenix.net/hls/CH_R28_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_TNT
+http://s84942.cdn.ngenix.net/hls/CH_R28_TNT/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_TV3
+http://s84942.cdn.ngenix.net/hls/CH_R28_TV3/variant.m3u8?version=2
+#EXTINF:-1,+6 Благовещенск\CH_TYNDATV_TYNDA
+http://s84942.cdn.ngenix.net/hls/CH_R28_TYNDATV/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_1TV_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_1TV_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_2X2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R04_2X2/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_5TV_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R02_5TV_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_DOMASHNIY_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_FRIDAY_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_KARUSEL_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_MATCHTV_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R04_MATCH_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_MIR
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R02_MIR_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_MUZTV
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R04_MUZTV_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_NTV_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R03_NTV_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_OTR_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTR_CHTA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_RENTV_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R02_RENTV_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_ROSSIA1_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R03_1TV_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_ROSSIA24_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_ROSSIAK_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_RTKZABHD
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_RTKZAB/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_SPAS
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_SPAS_ZK/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_STS_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R02_STS_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_TNT_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_TNT_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_TV3_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_TV3_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_TVC_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R04_TVC_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Чита\CH_ZVEZDA_2
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA_CHITA/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_1TV_2
+http://s34351.cdn.ngenix.net/hls/CH_R14_1TV/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_FRIDAY
+http://s34351.cdn.ngenix.net/hls/CH_R14_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_MAMONT
+http://s34351.cdn.ngenix.net/hls/CH_R14_MAMONT/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_MATCHTV
+http://s34351.cdn.ngenix.net/hls/CH_R14_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_NVCHD
+http://s34351.cdn.ngenix.net/hls/CH_R03_NVC_OTT/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_OTR
+http://s34351.cdn.ngenix.net/hls/CH_R14_OTR/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_ROSSIA1
+http://s34351.cdn.ngenix.net/hls/CH_R14_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_ROSSIA24
+http://s34351.cdn.ngenix.net/hls/CH_R14_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_STERHTV
+http://s34351.cdn.ngenix.net/hls/CH_R14_STERHTV/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_TNT
+http://s34351.cdn.ngenix.net/hls/CH_R14_TNT/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_TV3
+http://s34351.cdn.ngenix.net/hls/CH_R14_TV3/variant.m3u8?version=2
+#EXTINF:-1,+6 Якутск\CH_YAKT24
+http://s34351.cdn.ngenix.net/hls/CH_R14_YKT/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_1TV
+http://s97982.cdn.ngenix.net/hls/CH_R79_1TV/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_FRIDAY_2
+http://s97982.cdn.ngenix.net/hls/CH_R79_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_MATCHTV_2
+http://s97982.cdn.ngenix.net/hls/CH_R79_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_NTK
+http://s97982.cdn.ngenix.net/hls/CH_R79_NTK/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_OTR_2
+http://s97982.cdn.ngenix.net/hls/CH_R79_OTR/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_ROSSIA1_2
+http://s97982.cdn.ngenix.net/hls/CH_R79_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_ROSSIA24_2
+http://s97982.cdn.ngenix.net/hls/CH_R79_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_TNT_2
+http://s97982.cdn.ngenix.net/hls/CH_R79_TNT/variant.m3u8?version=2
+#EXTINF:-1,+7 Биробиджан\CH_TV3_2
+http://s97982.cdn.ngenix.net/hls/CH_R79_TV3/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_1TV
+http://s91030.cdn.ngenix.net/hls/CH_R25_1TV/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_8KANAL
+http://s91030.cdn.ngenix.net/hls/CH_R01_OTT8KANAL/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_FRIDAY_2
+http://s91030.cdn.ngenix.net/hls/CH_R25_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_MATCHTV_2
+http://s91030.cdn.ngenix.net/hls/CH_R25_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_OTR_2
+http://s91030.cdn.ngenix.net/hls/CH_R25_OTR/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_OTV
+http://s91030.cdn.ngenix.net/hls/CH_R25_OTV/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_PRIM24
+http://s91030.cdn.ngenix.net/hls/CH_R25_PRIM24/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_ROSSIA1_2
+http://s91030.cdn.ngenix.net/hls/CH_R25_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_ROSSIA24_2
+http://s91030.cdn.ngenix.net/hls/CH_R25_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_TELEMIKS
+http://s91030.cdn.ngenix.net/hls/CH_R25_TMX/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_TNT_2
+http://s91030.cdn.ngenix.net/hls/CH_R25_TNT/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_TV3_2
+http://s91030.cdn.ngenix.net/hls/CH_R25_TV3/variant.m3u8?version=2
+#EXTINF:-1,+7 Владивосток\CH_VOSTOK24
+http://s91030.cdn.ngenix.net/hls/CH_R01_VOSTOK24_OTT/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_1TV_2
+http://s97982.cdn.ngenix.net/hls/CH_R27_1TV/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_6TV
+http://s97982.cdn.ngenix.net/hls/CH_R27_6TV/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_6TVKMS
+http://s97982.cdn.ngenix.net/hls/CH_R27_6TVKMS/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_FRIDAY
+http://s97982.cdn.ngenix.net/hls/CH_R27_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_GUBERNIYA
+http://s97982.cdn.ngenix.net/hls/CH_R27_GUBERNYA/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_HABAROVSKHD
+http://s97982.cdn.ngenix.net/hls/CH_R27_HABAROVSK/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_MATCHTV
+http://s97982.cdn.ngenix.net/hls/CH_R27_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_OTR
+http://s97982.cdn.ngenix.net/hls/CH_R27_OTR/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_ROSSIA1
+http://s97982.cdn.ngenix.net/hls/CH_R27_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_ROSSIA24
+http://s97982.cdn.ngenix.net/hls/CH_R27_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_TNT
+http://s97982.cdn.ngenix.net/hls/CH_R27_TNT/variant.m3u8?version=2
+#EXTINF:-1,+7 Хабаровск\CH_TV3
+http://s97982.cdn.ngenix.net/hls/CH_R27_TV3/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_1TV_2
 http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8?version=2
-#EXTINF:-1,Первый 8-1
-http://a775798502-s20441.cdn.ngenix.net/hls/CH_R49_1TV/playlist.m3u8?version=2&offset=-3600
-#EXTINF:-1,Первый 8-1 2
-http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8?version=2&offset=-3600
+#EXTINF:-1,+8 Магадан\CH_FRIDAY
+http://s20441.cdn.ngenix.net/hls/CH_R49_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_KARIBU
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTTKARIBU/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_KOLYMAHD
+http://s20441.cdn.ngenix.net/hls/CH_R49_KOLYMA/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_MATCHTV
+http://s20441.cdn.ngenix.net/hls/CH_R49_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_OTR
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTR/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_ROSSIA1
+http://s20441.cdn.ngenix.net/hls/CH_R49_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_ROSSIA24
+http://s20441.cdn.ngenix.net/hls/CH_R49_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_TNT
+http://s20441.cdn.ngenix.net/hls/CH_R49_TNT/variant.m3u8?version=2
+#EXTINF:-1,+8 Магадан\CH_TV3
+http://s20441.cdn.ngenix.net/hls/CH_R49_TV3/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_1TV
+http://s14553.cdn.ngenix.net/hls/CH_R03_1TV_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_5TV
+http://s14553.cdn.ngenix.net/hls/CH_R02_5TV_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_ACTV
+http://s14553.cdn.ngenix.net/hls/CH_R65_ACTV/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_CHE
+http://s14553.cdn.ngenix.net/hls/CH_R02_PERETZ_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_DOMASHNIY
+http://s14553.cdn.ngenix.net/hls/CH_R01_DOMASHNY_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_FRIDAY
+http://s14553.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_KARUSEL
+http://s14553.cdn.ngenix.net/hls/CH_R01_KARUSEL_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_MATCHTV
+http://s14553.cdn.ngenix.net/hls/CH_R01_MATCHTV_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_MIR
+http://s14553.cdn.ngenix.net/hls/CH_R02_MIR_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_MUZTV
+http://s14553.cdn.ngenix.net/hls/CH_R03_MUZTV_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_OTR
+http://s14553.cdn.ngenix.net/hls/CH_R65_OTR/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_OTV_SLIN
+http://s14553.cdn.ngenix.net/hls/CH_R01_OTV_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_RENTV
+http://s14553.cdn.ngenix.net/hls/CH_R01_RENTV_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_ROSSIA1
+http://s14553.cdn.ngenix.net/hls/CH_R04_ROSSIA1_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_ROSSIA24
+http://s14553.cdn.ngenix.net/hls/CH_R01_ROSSIA24_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_ROSSIAK
+http://s14553.cdn.ngenix.net/hls/CH_R02_ROSSIAK/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_SPAS
+http://s14553.cdn.ngenix.net/hls/CH_R03_SPAS_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_STS
+http://s14553.cdn.ngenix.net/hls/CH_R01_STS_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_TV3
+http://s14553.cdn.ngenix.net/hls/CH_R65_TV3/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалин\CH_TVC
+http://s14553.cdn.ngenix.net/hls/CH_R01_TVC_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалинская область\CH_1TV
+http://s14553.cdn.ngenix.net/hls/CH_R65_1TV/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалинская область\CH_FRIDAY_2
+http://s14553.cdn.ngenix.net/hls/CH_R65_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалинская область\CH_MATCHTV_2
+http://s14553.cdn.ngenix.net/hls/CH_R65_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалинская область\CH_OTV_SLIN
+http://s14553.cdn.ngenix.net/hls/CH_R65_OTV_SLIN/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалинская область\CH_ROSSIA1_2
+http://s14553.cdn.ngenix.net/hls/CH_R65_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалинская область\CH_ROSSIA24_2
+http://s14553.cdn.ngenix.net/hls/CH_R65_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+8 Сахалинская область\CH_TNT_2
+http://s14553.cdn.ngenix.net/hls/CH_R65_TNT/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_1TV
+http://s14131.cdn.ngenix.net/hls/CH_R41_1TV/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_41REG
+http://s14131.cdn.ngenix.net/hls/CH_R02_41REG_OTT/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_FRIDAY_2
+http://s14131.cdn.ngenix.net/hls/CH_R41_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_KAMCHATKA1HD
+http://s14131.cdn.ngenix.net/hls/CH_R41_KAMCHATKA/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_MATCHTV_2
+http://s14131.cdn.ngenix.net/hls/CH_R41_MATCHTV/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_OTR_2
+http://s14131.cdn.ngenix.net/hls/CH_R41_OTR/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_ROSSIA1_2
+http://s14131.cdn.ngenix.net/hls/CH_R41_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_ROSSIA24_2
+http://s14131.cdn.ngenix.net/hls/CH_R41_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_TNT_2
+http://s14131.cdn.ngenix.net/hls/CH_R41_TNT/variant.m3u8?version=2
+#EXTINF:-1,+9 Камчатка\CH_TV3_2
+http://s14131.cdn.ngenix.net/hls/CH_R41_TV3/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_1TV
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KLNG/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_5TV
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_CHE
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_PERETZ/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_DOMASHNIY
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_FRIDAY
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_KARUSEL
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_KASKAD
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_MATCHTV
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA2/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_MIR
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_MIR_KLNG_FILIAL/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_NTV
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_NTV/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_OTR
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_RENTV
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_ROSSIA1
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_ROSSIA24
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_ROSSIAK
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIAK/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_STS
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_TNT
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_TV3
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_TVC
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_TVC/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_U
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_U/variant.m3u8?version=2
+#EXTINF:-1,-1 Калининград\CH_ZVEZDA
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_1TV_2
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_1TV/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_5TV_2
+http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_CHE_2
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CHE/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_DISNEY
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_DISNEY/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_DOMASHNIY_2
+http://s18209.cdn.ngenix.net/hls/CH_R04_DOMASHNY/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_FRIDAY_2
+http://s18209.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_KARUSEL_2
+http://s18209.cdn.ngenix.net/hls/CH_R01_KARUSEL/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_MATCHTV_2
+http://s18209.cdn.ngenix.net/hls/CH_R04_ROSSIA2/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_MOSKVA24
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_MOSKVADOVERIE
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_NTV_2
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_NTV/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_OTR_2
+http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_RENTV_2
+http://s18209.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_ROSSIA1_2
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA1/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_ROSSIA24_2
+http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_ROSSIAK_2
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIAK/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_STS_2
+http://s18209.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_TEOTVHD
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_TNT_2
+http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_TV3_2
+http://s18209.cdn.ngenix.net/hls/CH_R01_TV3/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_TVC_2
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVC/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_U_2
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_U/variant.m3u8?version=2
+#EXTINF:-1,0 Москва\CH_ZVEZDA_2
+http://s18209.cdn.ngenix.net/hls/CH_R03_ZVEZDA/variant.m3u8?version=2
