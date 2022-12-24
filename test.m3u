@@ -10,8 +10,8 @@ http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/variant.m3u8?versi
 #EXTINF:-1,Первый 8
 http://a775798502-s20441.cdn.ngenix.net/hls/CH_R49_1TV/playlist.m3u8?version=2
 #EXTINF:-1,Первый 8 2
-http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8&version=2
+http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8?version=2
 #EXTINF:-1,Первый 8-1
 http://a775798502-s20441.cdn.ngenix.net/hls/CH_R49_1TV/playlist.m3u8?version=2&offset=-3600
 #EXTINF:-1,Первый 8-1 2
-http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8&version=2&offset=-3600
+http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8?version=2&offset=-3600
