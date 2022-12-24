@@ -1,23 +1,17 @@
 #EXTM3U deinterlace=1 m3uautoload=1 url-tvg="http://iptvx.one/epg/epg_lite.xml.gz" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}"
-#EXTINF:-1,Матч 1
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=1
-#EXTINF:-1,Матч 2
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=2
-#EXTINF:-1,Матч 3
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=3
-#EXTINF:-1,Матч 4
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=4
-#EXTINF:-1,Матч 5
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=5
-#EXTINF:-1,Матч 6
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=6
-#EXTINF:-1,Матч 7
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=7
-#EXTINF:-1,Матч 8
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=8
-#EXTINF:-1,Матч 9
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=9
-#EXTINF:-1,Матч 0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8?version=0
-#EXTINF:-1,Матч -1
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
+#EXTINF:-1,ТНТ 4
+http://a787200764-rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/playlist.m3u8?&version=2
+#EXTINF:-1,ТНТ 4 2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/variant.m3u8?version=2
+#EXTINF:-1,ТНТ 4-1
+http://a787200764-rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/playlist.m3u8?&version=2&offset=-3600
+#EXTINF:-1,ТНТ 4-1 2
+http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_KRASN/variant.m3u8?version=2&offset=-3600
+#EXTINF:-1,Первый 8
+http://a775798502-s20441.cdn.ngenix.net/hls/CH_R49_1TV/playlist.m3u8?version=2
+#EXTINF:-1,Первый 8 2
+http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8&version=2
+#EXTINF:-1,Первый 8-1
+http://a775798502-s20441.cdn.ngenix.net/hls/CH_R49_1TV/playlist.m3u8?version=2&offset=-3600
+#EXTINF:-1,Первый 8-1 2
+http://s20441.cdn.ngenix.net/hls/CH_R49_1TV/variant.m3u8&version=2&offset=-3600
