@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1,1ТВЦ+7
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/video_720x540_avc1/variant.m3u8?version=2
+#EXTINF:-1,2ТВЦ+7
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/video_720x540_avc1/variant.m3u8?version=2
+#EXTINF:-1,3ТВЦ+7
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8?profile=web_auto
+#EXTINF:-1,4ТВЦ+7
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8?profile=web_auto&version=2
 #EXTINF:-1,+1 Самара\CH_1TV
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8?version=2
 #EXTINF:-1,+1 Самара\CH_5TV
