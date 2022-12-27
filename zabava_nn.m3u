@@ -4,7 +4,7 @@ http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8?version=2
 #EXTINF:-1,Россия 1
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8?version=2
 #EXTINF:-1,Матч!
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/video_800x450_avc1/variant.m3u8?version=2
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_ROSSIA2/variant.m3u8?version=2
 #EXTINF:-1,НТВ
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_NTV/variant.m3u8?version=2
 #EXTINF:-1,Пятый канал
