@@ -22,7 +22,7 @@ http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_TVC/variant.m3u8?version=2
 #EXTINF:-1,Рен ТВ
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_RENTV/variant.m3u8?version=2
 #EXTINF:-1,Спас
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/video_720x540_avc1/variant.m3u8?version=2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/video_800x450_avc1/variant.m3u8?version=2
 #EXTINF:-1,СТС
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_STS/variant.m3u8?version=2
 #EXTINF:-1,Домашний
@@ -34,11 +34,11 @@ http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_FRIDAY/variant.m3u8?version=2
 #EXTINF:-1,Звезда
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_ZVEZDA/variant.m3u8?version=2
 #EXTINF:-1,Мир
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/video_720x540_avc1/variant.m3u8?version=2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/video_800x450_avc1/variant.m3u8?version=2
 #EXTINF:-1,ТНТ
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_TNT/variant.m3u8?version=2
 #EXTINF:-1,Муз ТВ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/video_720x540_avc1/variant.m3u8?version=2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/video_800x450_avc1/variant.m3u8?version=2
 #EXTINF:-1,ННТВ
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_NNTV/variant.m3u8?version=2
 #EXTINF:-1,Волга
